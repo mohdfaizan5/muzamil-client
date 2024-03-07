@@ -1,12 +1,11 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
-import ContactUs from "./pages/ContactUs";
+import Routing from "./utils/Routing";
+
 
 const App = () => {
   return (
     <div className="relative poppins-regular bg-bg-primary">
-      <HomePage />
-      <ContactUs />
+      <Routing/>
     </div>
   );
 };

@@ -1,20 +1,14 @@
-import React from 'react'
-import Navbar from './pages/Navbar'
-import HeroSection from './pages/HeroSection'
-import OurServices from './pages/OurServices'
-import WhyUs from './pages/WhyUs'
-import Footer from './pages/Footer'
+import React from "react";
+import HomePage from "./pages/HomePage";
+import ContactUs from "./pages/ContactUs";
 
 const App = () => {
   return (
-    <div className='px-3 overflow-x-hidden'>
-      <Navbar/>
-      <HeroSection/>
-      <OurServices/>
-      <WhyUs/>
-      <Footer/>
+    <div className="relative poppins-regular bg-bg-primary">
+      <HomePage />
+      <ContactUs />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

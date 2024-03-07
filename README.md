@@ -1,8 +1,83 @@
-# React + Vite
+ABOUT ME 
+...
+1. Projects 
+2.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+NAV BAR
+*Training *Webdevelopment *QA * Data Services  *About Us [Contact US]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+SERVICES
+
+1. Training (skill set- py, web dev, sql, data sciences)
+2. Webdevelopment (...)
+3. QA (testing frontend, API testing)
+4. Data Services [data science, AI, ML, Chatbots, deepfake, data analytics, ...] elaborate this 
+
+
+XX Our Approach
+
+Customer
+1. ZTB (logo)
+2. Noah Luxury suites
+3. Abdul farms
+4. FAM shared accomadations 
+5. Wyndham Falcon Cricket Club 
+6. DDD Cricket Club
+keep other logos
+
+>> Add related logos
+
+
+OUR DOMAIN
+- Education
+- Retail
+- Accomadations / Hospitality
+- Sports / Recreation
+- Food Industry
+	- Farms
+
+>> find good sounding industries 
+
+
+
+WHY US?
+
+Why Dataipulse
+100% Australian owned Company
+Quality Delivery of IT projects
+Managed services delivery expertise
+Proven Public and Private Sector domain experience
+Cost-effective and Innovative delivery models
+Global delivery capability
+
+No team members
+
+OUR VIDEOS
+- Client testimonials -> Noah Luxury suites
+- Demo video ->
+
+
+MAP (optional)
+ - Bangalore 
+ - AU melbourne
+
+
+PHone no - +61468489403
+
+Socail pages
+- Inst
+- Twitter
+- Facebook
+- Linked *
+
+
+- About us navbar
+
+ 
+
+PAGES 
+ /home
+ /about-us
+ /contact

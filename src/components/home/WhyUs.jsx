@@ -5,7 +5,7 @@ const WhyUs = () => {
     <div>
       <section className="flex flex-col md:flex-row md:justify-around items-center  pb-10">
         <section>
-          <h2 className="text-3xl pt-10 pb-5 font-medium">Why Adactin</h2>
+          <h2 className="text-3xl pt-10 pb-5 font-medium">Why Dataipulse</h2>
           <ul className="ul1 text-xl flex flex-col gap-1 pb-5">
             <li>100% Australian owned Company</li>
             <li>100% Australian owned Company</li>
@@ -18,7 +18,7 @@ const WhyUs = () => {
         <section>
           <img
             className="h-80 rounded-2xl"
-            src="https://adactin.com/wp-content/uploads/2023/09/Why-Adactin-5-5-1.png"
+            src="https://Dataipulse.com/wp-content/uploads/2023/09/Why-Dataipulse-5-5-1.png"
           />
         </section>
       </section>
@@ -35,7 +35,7 @@ const WhyUs = () => {
         <section>
           <img
             className="h-80 rounded-2xl"
-            src="https://adactin.com/wp-content/uploads/2023/09/Why-Adactin-5-5-1.png"
+            src="https://Dataipulse.com/wp-content/uploads/2023/09/Why-Dataipulse-5-5-1.png"
           />
         </section>
       </section>
@@ -47,7 +47,7 @@ const WhyUs = () => {
           </h2>
           <ul className="ul1 text-xl flex flex-col items-start md:w-1/3 gap-1 pb-5">
             <p className="py-2">
-              Adactin Group is a premium Australian software consulting company
+              Dataipulse Group is a premium Australian software consulting company
               dedicated to deliver top services and solutions in Software
               Development & Integration, Quality Assurance (QA), Data Analytics,
               Cyber Security, Digital Transformation, Project Management and
@@ -61,7 +61,7 @@ const WhyUs = () => {
         <section>
           <img
             className="h-[600px] object-contain rounded-2xl"
-            src="https://adactin.com/wp-content/uploads/2023/09/MicrosoftTeams-image-removebg-preview.png"
+            src="https://Dataipulse.com/wp-content/uploads/2023/09/MicrosoftTeams-image-removebg-preview.png"
           />
         </section>
       </section> */}

@@ -18,9 +18,13 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        clamp: "clamp(1rem, 5vw, 3rem)",
+        clamp: "clamp(3rem, 5vw, 6rem)",
       },
       colors: {
+        "bg-black": "#010101",
+        "bg-primary": "#F6F7F8",
+        "white-shade1": "#858585",
+        "primary-blue": "#0047FF",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

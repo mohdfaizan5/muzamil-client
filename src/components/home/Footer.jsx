@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMailUnreadSharp } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -10,9 +11,10 @@ const Footer = () => {
             About Our Company
           </h3>
           <p className="py-2 text-[#858585]">
-            Dataipulse Group is a premium IT company in Australia dedicated to
-            world-class Quality Assurance (QA), Software Development, Data
-            Analytics, Digital Transformation & Integration, Project Management.
+            At Dataipulse, we're driven by a passion for technology and
+            empowering businesses to achieve their full potential. We're a
+            premium IT consulting company in Australia, offering a comprehensive
+            suite of services to support every stage of your digital journey.
           </p>
         </section>
         <section>
@@ -20,11 +22,11 @@ const Footer = () => {
           <section className="text-[#858585]">
             <div className="flex gap-3">
               <span>{">"}</span>
-              <span>Development & Integration</span>
+              <span>Webdevelopment</span>
             </div>
             <div className="flex gap-3">
               <span>{">"}</span>
-              <span>Project Management & BA Services</span>
+              <span>QA (testing frontend, API testing)</span>
             </div>
             <div className="flex gap-3">
               <span>{">"}</span>
@@ -32,17 +34,22 @@ const Footer = () => {
             </div>
             <div className="flex gap-3">
               <span>{">"}</span>
-              <span>Tutoring</span>
+              <span>Tutoring && Training</span>
             </div>
           </section>
         </section>
 
         <section className="pt-5 pb-3">
           <h3 className="py-3 text-2xl font-semibold">More</h3>
-          <div className="flex items-center gap-3 text-white-shade1" >
+          <div className="flex items-center gap-3 text-white-shade1">
             <IoMailUnreadSharp />
 
             <p>info@Dataipulse.com</p>
+          </div>
+          <div className="flex items-center gap-3 text-white-shade1">
+            <FaPhoneAlt />
+
+            <p>+61468489403</p>
           </div>
         </section>
       </section>
@@ -50,7 +57,9 @@ const Footer = () => {
         Copyright © 2024 Dataipulse Group Pty Ltd . All rights reserved. Privacy
         Policy
       </h6>
-      <h2 className="py-5 text-6xl font-bold text-center uppercase opacity-50 stroke-2 sm:text-7xl stroke-red-800 ">Dataipulse</h2>
+      <h2 className="py-5 text-6xl font-bold text-center uppercase opacity-50 stroke-2 sm:text-7xl stroke-red-800 ">
+        Dataipulse
+      </h2>
     </footer>
   );
 };

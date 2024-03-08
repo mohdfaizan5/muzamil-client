@@ -1,3 +1,11 @@
+## Todo
+
+- [ ] Figma
+  - [ ] Logo
+  - [ ] Fav icon
+  - [ ] 
+- [ ] Change title 
+
 ABOUT ME 
 ...
 1. Projects 

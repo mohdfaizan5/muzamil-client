@@ -19,7 +19,7 @@ const Footer = () => {
         </section>
         <section>
           <h3 className="py-3 pt-5 text-2xl font-semibold">Services</h3>
-          <section className="text-[#858585]">
+          <section className="text-[#858585] ">
             <div className="flex gap-3">
               <span>{">"}</span>
               <span>Webdevelopment</span>
@@ -57,7 +57,7 @@ const Footer = () => {
         Copyright © 2024 Dataipulse Group Pty Ltd . All rights reserved. Privacy
         Policy
       </h6>
-      <h2 className="py-5 text-6xl font-bold text-center uppercase opacity-50 stroke-2 sm:text-7xl stroke-red-800 ">
+      <h2 className="py-5 text-4xl font-bold text-center uppercase opacity-50 stroke-2 sm:text-7xl stroke-red-800 ">
         Dataipulse
       </h2>
     </footer>

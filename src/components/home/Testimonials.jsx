@@ -10,14 +10,14 @@ const Testimonials = () => {
   return (
     <section className="py-5 grayscale">
 
-      <h2 className="items-center pb-10 text-3xl font-semibold sm:flex sm:flex-col">Our Customers</h2>
-      <div className="flex items-center justify-center gap-3 sm:w-screen ">
-        <img className="h-20 bg-blend-darken" src={zedLogo}/>
-        <img className="h-28 bg-blend-darken" src={AbdulLogo}/>
-        <img className="h-20 bg-blend-darken" src={DDDLogo}/>
-        <img className="h-20 bg-blend-darken" src={FAMLogo}/>
-        <img className="h-20 bg-blend-darken" src={NoahLogo}/>
-        <img className="h-20 bg-blend-darken" src={WyndhamLogo}/>
+      <h2 className="items-center pb-10 text-3xl font-semibold text-center sm:flex sm:flex-col">Our Customers</h2>
+      <div className="flex flex-wrap items-center justify-center gap-3 sm:items-center sm:justify-center sm:w-screen ">
+        <img className="h-20" src={zedLogo}/>
+        <img className="h-28" src={AbdulLogo}/>
+        <img className="h-20" src={DDDLogo}/>
+        <img className="h-20" src={FAMLogo}/>
+        <img className="h-20" src={NoahLogo}/>
+        <img className="h-20" src={WyndhamLogo}/>
       </div>
     </section>
   );

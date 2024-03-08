@@ -4,11 +4,11 @@ import CloudImg from "../../assets/cloud_hosting.svg"
 
 const WhyUs = () => {
   return (
-    <div>
+    <div className="px-4">
       <section className="flex flex-col items-center pb-10 md:flex-row sm:justify-center sm:gap-28">
         <section>
           <h2 className="pt-10 pb-5 text-3xl font-medium">Why Dataipulse</h2>
-          <ul className="flex flex-col gap-1 pb-5 text-xl ul1">
+          <ul className="flex flex-col gap-1 pb-5 text-md sm:text-xl ul1">
             <li>Australian Expertise</li>
             <li>Cost-Effective & Innovative</li>
             <li>Your Trusted Partner</li>
@@ -19,7 +19,7 @@ const WhyUs = () => {
         </section>
         <section>
           <img
-            className="w-80 h-80 rounded-2xl"
+            className="w-60 h-60 sm:w-80 sm:h-80 rounded-2xl"
             src={progressImg}
           />
         </section>
@@ -38,7 +38,7 @@ const WhyUs = () => {
         </section>
         <section>
           <img
-            className="object-contain w-80 h-80 rounded-2xl"
+            className="object-contain w-60 h-60 sm:w-80 sm:h-80 rounded-2xl"
             src={CloudImg}
           />
         </section>

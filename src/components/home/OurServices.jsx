@@ -35,11 +35,11 @@ const data = [
 const OurServices = () => {
   return (
     <div className="flex flex-col items-center">
-      <section className="flex flex-col items-center text-center">
+      <section className="flex flex-col items-center py-5 text-center">
         <h2 className="text-4xl font-semibold md:text-5xl md:py-3">
           Discover Our Expertise
         </h2>
-        <h2 className="text-xl leading-tight w-80 md:w-1/3 md:pb-5">
+        <h2 className="py-3 leading-tight text-ml sm:text-xl w-80 md:w-1/3 md:pb-5">
           We believe in partnering with you to achieve your business objectives.
           Contact Dataipulse today and let's unlock the power of technology
           together.{" "}

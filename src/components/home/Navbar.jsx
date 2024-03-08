@@ -7,7 +7,7 @@ import companyLogo from "../../assets/Final Logo.png"
 
 const Navbar = () => {
   return (
-    <header className="z-50 flex items-center justify-between py-4 bg-white md:px-10 sm:w-screen">
+    <header className="z-50 flex items-center justify-between px-5 py-4 bg-white md:px-10 sm:w-screen">
       <div>
         <Link to={"/"}>
           <img
@@ -16,7 +16,7 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="flex items-center gap-1">
+      <div className="hidden sm:flex sm:items-center sm:gap-1 ">
         <span className="px-4 py-2 transition duration-150 rounded-md hover:ease-in-out hover:underline hover:bg-slate-200">
           Data Services
         </span>

@@ -1,11 +1,11 @@
 import React from "react";
-import progressImg from "../../assets/progressive_app_.svg"
+import progressImg from "../../assets/undraw_futuristic_interface_re_0cm6.svg"
 import CloudImg from "../../assets/cloud_hosting.svg"
 
 const WhyUs = () => {
   return (
     <div className="px-4">
-      <section className="flex flex-col items-center pb-10 md:flex-row sm:justify-center sm:gap-28">
+      <section className="flex flex-col items-center pb-10 md:flex-row sm:justify-center sm:gap-28 sm:pt-10">
         <section>
           <h2 className="pt-10 pb-5 text-3xl font-medium">Why Dataipulse</h2>
           <ul className="flex flex-col gap-1 pb-5 text-md sm:text-xl ul1">
@@ -19,7 +19,7 @@ const WhyUs = () => {
         </section>
         <section>
           <img
-            className="w-60 h-60 sm:w-80 sm:h-80 rounded-2xl"
+            className="w-60 h-60 sm:w-60 sm:h-60 rounded-2xl"
             src={progressImg}
           />
         </section>

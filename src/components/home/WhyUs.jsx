@@ -1,8 +1,12 @@
 import React from "react";
-import progressImg from "../../assets/undraw_futuristic_interface_re_0cm6.svg"
-import CloudImg from "../../assets/cloud_hosting.svg"
+import progressImg from "../../assets/undraw_futuristic_interface_re_0cm6.svg";
+import CloudImg from "../../assets/cloud_hosting.svg";
 
 const WhyUs = () => {
+  const bridgeImg =
+    "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcT2drLjVsYK2Dap-AYISL9qORan8IMfxJoBbIukdqYfxXjPzMmQ87c5BoGpfnfXKIhOH1TnNF452lmBmQ6Jf-6fJFRcIwDyt51iT5WTkg";
+
+
   return (
     <div className="px-4">
       <section className="flex flex-col items-center pb-10 md:flex-row sm:justify-center sm:gap-28 sm:pt-10">
@@ -14,7 +18,6 @@ const WhyUs = () => {
             <li>Your Trusted Partner</li>
             <li>Proven Track Record</li>
             <li>Global Reach</li>
-
           </ul>
         </section>
         <section>
@@ -26,14 +29,29 @@ const WhyUs = () => {
       </section>
 
       <section className="flex flex-col items-center pb-10 md:flex-row-reverse md:justify-center sm:gap-28">
-        <section className="sm:w-1/3">
-          <h2 className="pt-10 pb-5 text-3xl font-semibold">Our Commitments</h2>
-          <p>We take the time to truly grasp your project goals, challenges, and vision. Our skilled team ensures flawless execution, mitigating risks and delivering outcomes you can rely on. We approach every project with integrity and deliver solutions that demonstrably drive successful results.</p>
-          <h2 className="pt-10 pb-5 text-xl font-semibold">Our Mission</h2>
+        <section
+          className="sm:w-1/3 "
           
+        >
+          <h2 className="pt-10 pb-5 text-3xl font-semibold">Our Commitments</h2>
+          <p>
+            We take the time to truly grasp your project goals, challenges, and
+            vision. Our skilled team ensures flawless execution, mitigating
+            risks and delivering outcomes you can rely on. We approach every
+            project with integrity and deliver solutions that demonstrably drive
+            successful results.
+          </p>
+          <h2 className="pt-10 pb-5 text-xl font-semibold">Our Mission</h2>
+
           <ul className="flex flex-col gap-1 pb-5 text-md ul1">
-            <li>To provide exceptional IT solutions that deliver tangible results and a competitive edge.</li>
-            <li>To foster long-term partnerships with our clients, becomingtrusted advisors and technology experts.</li>
+            <li>
+              To provide exceptional IT solutions that deliver tangible results
+              and a competitive edge.
+            </li>
+            <li>
+              To foster long-term partnerships with our clients, becomingtrusted
+              advisors and technology experts.
+            </li>
           </ul>
         </section>
         <section>
@@ -43,7 +61,7 @@ const WhyUs = () => {
           />
         </section>
       </section>
-{/* 
+      {/* 
       <section className="flex flex-col items-center pt-10 md:flex-row md:justify-around ">
         <section>
           <h2 className="pt-10 pb-5 text-3xl font-medium">

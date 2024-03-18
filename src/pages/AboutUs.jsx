@@ -1,8 +1,12 @@
 import Footer from "@/components/home/Footer";
 import Navbar from "@/components/home/Navbar";
 import { MdOutlineWork } from "react-icons/md";
+import bg2 from "../assets/flinders-street-station.webp"
 
 const AboutUs = () => {
+  const bg_img1 =
+    "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQxs-vzERE_mqDNcmE0GecWmUiMueEpWZAg-LY_CKYwkMH-Keoa-slETlG0BgSIRgpKgfXdwnudMVDxc23JtCALmu_Ff5JoDtJWkkiv5Q";
+
   return (
     <div className="flex flex-col items-center gap-10">
       <Navbar />
@@ -11,11 +15,15 @@ const AboutUs = () => {
           <MdOutlineWork />
           About us
         </h3>{" "}
-        <div className="flex flex-col gap-2 mx-auto">
-          <section className="flex flex-col items-center py-10">
-            <p className="text-sm sm:w-1/2">
-              Hey! I'm Muzamil, At Dataipulse, we're driven by a passion
-              for technology and empowering businesses to achieve their full
+        <div className="z-10 flex flex-col gap-2 mx-auto">
+          <section
+            className="flex flex-col items-center py-10"
+
+          >
+            <img src={bg2} className="pb-10 rounded-md sm:w-96"/>
+            <p className="z-30 text-md sm:w-2/3">
+              Hey! I'm Muzamil, At Dataipulse, we're driven by a passion for
+              technology and empowering businesses to achieve their full
               potential. We're a premium IT consulting company in Australia,
               offering a comprehensive suite of services to support every stage
               of your digital journey.
